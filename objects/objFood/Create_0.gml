@@ -12,7 +12,11 @@ if (room == rmSpace)
 	spin = random_range(-2,2);
 	motion_set(random(360),random(1));
 	
+}else if (room==rmCatchFood)
+{
+	A=true;
 }
+
 else
 {
 	image_xscale = 2;

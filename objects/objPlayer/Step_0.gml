@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 if (room == rmCatchFood){
+	
+		if place_meeting(x, y, objBAlimentar) score += 10;/*CONTAR PONTOS*/
+	
     LEFT = keyboard_check(vk_left);
 	RIGHT = keyboard_check(vk_right);
 	FIRE = keyboard_check(vk_space);

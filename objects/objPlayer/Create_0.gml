@@ -13,6 +13,7 @@ image_speed = 0;
 if (room == rmCatchFood){
      baseSpeed = 10;
 	 baseImgSpeed = 3;
+	 y=985;
 }else if (room == rmFWD){
 	baseSpeed = 4;
 	hasFood = false;

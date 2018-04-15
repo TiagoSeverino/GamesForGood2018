@@ -1,7 +1,19 @@
 /// @description check room + changes to food
 
 if (room == rmCatchFood){
-     
+      if(y > 1000)
+	{
+	speed = 0;
+	if (A==true)
+	{
+	alarm[0] = 5*room_speed
+	A=false
+	}
+	score = 0;
+	if place_meeting(x, y, objPlayer) instance_destroy();
+
+	}
+
 }else if (room == rmFWD){
 	
 }else if (room == rmSpace){
