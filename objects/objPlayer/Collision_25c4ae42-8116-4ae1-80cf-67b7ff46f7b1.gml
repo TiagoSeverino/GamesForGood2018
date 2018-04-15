@@ -4,11 +4,9 @@
 if (room == rmCatchFood){
 
 }else if (room == rmFWD){
-	if (!hasFood){	
-		hasFood = true;
-		with(other){
-			instance_destroy();
-		}
+	if (hasFood){
+		other.ocupiedVolunteers--;
+		instance_destroy();
 	}
 }else if (room == rmSpace){
 	
