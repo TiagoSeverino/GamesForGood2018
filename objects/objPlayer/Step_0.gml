@@ -3,7 +3,7 @@
 
 if (room == rmCatchFood){
 	
-		if place_meeting(x, y, objBAlimentar) score += 10;/*CONTAR PONTOS*/
+		//if place_meeting(x, y, objBAlimentar);/*CONTAR PONTOS*/
 	
     LEFT = keyboard_check(vk_left);
 	RIGHT = keyboard_check(vk_right);

@@ -23,3 +23,5 @@ else
 	image_yscale = 2;
 	image_speed = 0.5;
 }
+
+global.comidaApanhada = 0;

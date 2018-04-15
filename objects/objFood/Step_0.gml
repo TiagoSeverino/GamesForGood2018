@@ -12,7 +12,11 @@ if (room == rmCatchFood){
 	score = 0;
 
 	}
-	if place_meeting(x, y, objPlayer) instance_destroy();
+	if place_meeting(x, y, objPlayer)
+	{
+		global.comidaApanhada += 1;
+		instance_destroy();
+	}
 
 }else if (room == rmFWD){
 	
