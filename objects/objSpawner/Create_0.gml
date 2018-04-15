@@ -5,6 +5,9 @@ foodAmmount = 5;
 hasFoodSpawned = true;
 
 if (room == rmCatchFood){
+			A=false;
+alarm[0]=1;
+
     if(!instance_exists(objFood))
 	{
 		for (i = 0; i <= 5; i++)

@@ -6,7 +6,12 @@ if (keyboard_check(vk_escape)){
 }
 
 if (room == rmCatchFood){
-     
+      if (A==true)
+	{
+	alarm[0] = 15*room_speed;
+	A=false;
+	}
+
 }else if (room == rmFWD){
 	if (!hasFoodSpawned){
 		if (!instance_exists(objFood)){
