@@ -14,7 +14,7 @@ if (room == rmCatchFood)
 	rand = irandom(100);
 	randomize();
 
-	if (rand < 80){
+	if (rand > 80){
 		image_index = 1;
 		image_xscale = 0.15;
 		image_yscale = 0.15;
