@@ -10,6 +10,6 @@ direction = 90;
 Facing = direction;
 CanShoot = true;
 MaxHP = 500;
-Hp = 200;
+Hp = 150;
 Damage = 50;
 global.vacuum = false;
