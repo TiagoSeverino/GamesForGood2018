@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0570ee98-4fb7-4c34-8baa-66d23a53be5a",
+            "Value": {
+                "id": "740a89b8-c5ff-42fc-a150-18f5e4e9e5b7",
+                "resourcePath": "views\\0570ee98-4fb7-4c34-8baa-66d23a53be5a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "10434131-9269-4757-92f6-e1a49fc024eb",
             "Value": {
                 "id": "a992a6a2-59b6-47e5-b2e8-22258a219c90",
@@ -68,6 +76,14 @@
                 "id": "d8dee619-73f0-45eb-9a7c-80ab10562729",
                 "resourcePath": "views\\1be6f60a-490f-40c4-9e35-51541fdb201e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1fc4e222-69ce-49a8-97ee-99ed35dbf8d8",
+            "Value": {
+                "id": "f26e1028-6381-4ba9-b308-52196ffb7682",
+                "resourcePath": "sprites\\sprCatchFood\\sprCatchFood.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
