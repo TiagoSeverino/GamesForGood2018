@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if room==rmCatchFood
-{
-     if(!instance_exists(objFood))
+if (room == rmCatchFood){
+    if(!instance_exists(objFood))
 	{
 		for (i = 0; i <= 5; i++)
         {
@@ -11,4 +10,8 @@ if room==rmCatchFood
 			obj.direction = 270;
         }
 	}
+}else if (room == rmFWD){
+	
+}else if (room == rmSpace){
+	
 }
