@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "c7a01adb-1841-49bb-9f1e-f1723c26b7c0",
+            "Value": {
+                "id": "a8a6028a-799a-4244-9d12-63847309d480",
+                "resourcePath": "sprites\\sprCatchFoodBG\\sprCatchFoodBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c99ffae6-b757-4a53-b028-1589b176c219",
             "Value": {
                 "id": "fd8ef190-cbf5-41f5-bc42-4c11b54c627e",
