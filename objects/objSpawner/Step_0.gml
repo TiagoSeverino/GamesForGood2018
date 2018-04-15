@@ -5,6 +5,11 @@ if (keyboard_check(vk_escape)){
 	room_goto(rmMain);
 }
 
+if (keyboard_check_pressed(ord("F"))){
+	window_set_fullscreen(!window_get_fullscreen());
+}
+
+
 if (room == rmCatchFood){
       if (A==true)
 	{
