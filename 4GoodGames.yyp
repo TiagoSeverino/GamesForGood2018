@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "2786702b-6b99-4dab-8882-879df9987b04",
+            "Value": {
+                "id": "3954cbff-0f54-484d-8056-d699384edff1",
+                "resourcePath": "objects\\objMenu\\objMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34cae504-75b7-4a20-acd2-8b53a280bc68",
             "Value": {
                 "id": "5590a9f2-9284-48a0-a10e-22fc587d06aa",
@@ -87,11 +95,27 @@
             }
         },
         {
+            "Key": "5e7a89dd-8bd8-4d65-bca2-4dc02189227a",
+            "Value": {
+                "id": "71f3da42-fa55-4cb1-84a1-48e600a668f9",
+                "resourcePath": "sprites\\sprArrow\\sprArrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72ab3292-f54a-479f-b022-a57f9b18098f",
             "Value": {
                 "id": "41c35699-65bf-4c6b-9953-90629f67bac7",
                 "resourcePath": "views\\72ab3292-f54a-479f-b022-a57f9b18098f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a56bb6e-64ca-49bc-85f2-20b5eca1dfdd",
+            "Value": {
+                "id": "58ffe5e6-7718-442a-858d-afb45d9fa36c",
+                "resourcePath": "scripts\\scrMenu\\scrMenu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -143,6 +167,14 @@
             }
         },
         {
+            "Key": "e3ab9956-693b-4e79-a0e4-14c03e077a15",
+            "Value": {
+                "id": "8f4062a4-cc6b-4a91-b042-8f751013ff01",
+                "resourcePath": "fonts\\fontMenu\\fontMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e774e4da-8b03-4b34-afeb-26dcd770d8a4",
             "Value": {
                 "id": "7aea50a6-830e-4a93-96f1-c810f68ee8b9",
@@ -173,10 +205,18 @@
                 "resourcePath": "views\\f37050d5-eb61-46ce-b972-0150e1e352e7.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f81dbb02-e42c-4d86-962c-521de66522b3",
+            "Value": {
+                "id": "1fc18005-2184-40c9-bde5-80bb4c123c38",
+                "resourcePath": "sprites\\sprMenu\\sprMenu.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "7a56bb6e-64ca-49bc-85f2-20b5eca1dfdd"
     ],
     "tutorial": ""
 }
