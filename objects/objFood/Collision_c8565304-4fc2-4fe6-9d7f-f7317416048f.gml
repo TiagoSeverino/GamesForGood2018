@@ -1,4 +1,7 @@
 /// @description destroy + score
 
-score += 20;
+if(global.vacuum)
+{
+score += 50;
 instance_destroy();
+}

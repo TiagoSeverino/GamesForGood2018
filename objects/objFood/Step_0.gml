@@ -9,8 +9,7 @@ if (room == rmCatchFood){
 	if global.vacuum
 	{	
 		var d = point_distance(x,y,objShip.x, objShip.y);
-		if d < 256
-		move_towards_point(objShip.x, objShip.y, 64/sqr(d>>4))
-	}
-	else speed=0;
+		if d < 350
+		move_towards_point(objShip.x, objShip.y, 100/sqr(d>>4))
+	}	
 }

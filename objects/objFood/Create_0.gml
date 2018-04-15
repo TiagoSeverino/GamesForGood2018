@@ -6,13 +6,12 @@ randomize();
 if (room == rmSpace)
 {
 	image_speed = 0;
-	scale = random_range(2,2);
+	scale = 2;
 	image_xscale = choose(scale,-scale);
-	image_yscale = choose(scale,-scale);
-	image_angle = random(360);
+	image_yscale = choose(scale,-scale);	
 	spin = random_range(-2,2);
 	motion_set(random(360),random(1));
-	friction = 0;
+	
 }
 else
 {
