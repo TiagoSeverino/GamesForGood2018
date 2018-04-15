@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "bbd8fef1-95a4-4fac-8a80-96a5842ad3dc",
     "children": [
-        "bdfeba18-78b0-4ef8-9a83-60fff0bd7f96"
+        "bdfeba18-78b0-4ef8-9a83-60fff0bd7f96",
+        "87eb7b6e-be82-4e22-a7ac-19e7932b5177"
     ],
     "filterType": "GMSprite",
     "folderName": "BancoAlimentar",
