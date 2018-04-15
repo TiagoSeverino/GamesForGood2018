@@ -1,8 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 sprite_index = random_range(sprCarrot, sprMeat + 1);
-image_speed = 0.5;
+
+randomize();
+if (room == rmSpace)
+{
+image_speed = 0;
+scale = random_range(2,2);
+image_xscale = choose(scale,-scale);
+image_yscale = choose(scale,-scale);
+image_angle = random(360);
+spin = random_range(-2,2);
+motion_set(random(360),random(1));
+friction = 0;
+}
+else
+{
 image_xscale = 2;
 image_yscale = 2;
-randomize();
+image_speed = 0.5;
+}

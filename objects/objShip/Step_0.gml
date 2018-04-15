@@ -43,6 +43,5 @@ else
 	global.vacuum = false;
 }
 speed = max(speed - 0.01 , 0);
-if(keyboard_check(vk_control))
-{instance_destroy();}
+
 	
