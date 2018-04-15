@@ -4,12 +4,8 @@
 if (room == rmCatchFood){
      
 }else if (room == rmFWD){
-	if (!hasFoodSpawned){
-		if (!instance_exists(objFood)){
-			alarm[0] = room_speed * 2;
-			hasFoodSpawned = true;
-		}
-	}
+	path_start(pathFWD, 5, path_action_stop, true);
+	alarm[0] = -1;
 }else if (room == rmSpace){
 	
 }

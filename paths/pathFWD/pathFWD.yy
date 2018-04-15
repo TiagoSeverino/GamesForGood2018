@@ -2,7 +2,7 @@
     "id": "f82c3aff-b023-4eb4-923e-c5ea69488656",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "path0",
+    "name": "pathFWD",
     "closed": false,
     "hsnap": 0,
     "kind": 0,
