@@ -17,5 +17,5 @@ if (room == rmCatchFood){
 }else if (room == rmFWD){
 	alarm[0] = room_speed * 2;
 }else if (room == rmSpace){
-	
+	LixoQty = 0;
 }

@@ -15,5 +15,18 @@ if (room == rmCatchFood){
 		}
 	}
 }else if (room == rmSpace){
-	
+	if(!instance_exists(objTrash) and instance_exists(objShip))
+	{
+	LixoQty += 5;
+	repeat (LixoQty)
+	{
+		do {
+			newX = random(room_width);
+			newY = random(room_height);
+			}
+		until (point_distance(newX,newY,objShip.x,objShip.y) > 150)
+		with (instance_create_layer(newX,newY,"Instances",objTrash)){}
+	}	
+}
+
 }

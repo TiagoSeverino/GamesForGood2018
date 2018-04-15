@@ -1,3 +1,3 @@
 /// @description wrap
 
-move_wrap(true,true,-1);
+move_wrap(true,true,0);
