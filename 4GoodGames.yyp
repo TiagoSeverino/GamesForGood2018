@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "385cc65a-053a-49d5-8e20-7928be2f20ed",
+            "Value": {
+                "id": "d1c28ca6-d905-4863-9dca-bdf2fb15d691",
+                "resourcePath": "views\\385cc65a-053a-49d5-8e20-7928be2f20ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3c9a50ad-bce9-4635-ae05-6bbe98400681",
             "Value": {
                 "id": "ed7b8335-93d4-4cff-b460-6655c3363ebe",
@@ -211,6 +219,22 @@
             "Value": {
                 "id": "c5d8f889-d697-4f71-8ee5-e38e44f1de64",
                 "resourcePath": "sprites\\sprBread\\sprBread.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbd8fef1-95a4-4fac-8a80-96a5842ad3dc",
+            "Value": {
+                "id": "ba4d4a2f-3005-43bc-a0cb-9761bbf7cae0",
+                "resourcePath": "views\\bbd8fef1-95a4-4fac-8a80-96a5842ad3dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bdfeba18-78b0-4ef8-9a83-60fff0bd7f96",
+            "Value": {
+                "id": "b55505e8-208b-4485-a2f0-54b247c998fd",
+                "resourcePath": "sprites\\sprBancoAlimentar\\sprBancoAlimentar.yy",
                 "resourceType": "GMSprite"
             }
         },
