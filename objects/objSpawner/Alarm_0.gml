@@ -5,7 +5,7 @@ if (room == rmCatchFood){
       A=true;
     if(!instance_exists(objFood))
 	{
-		for (i = 0; i < 10; i++)
+		for (i = 1; i < 10; i++)
         {
 			spawn= irandom_range(1,4);
 			if(spawn==1)

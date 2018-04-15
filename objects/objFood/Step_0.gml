@@ -10,9 +10,9 @@ if (room == rmCatchFood){
 	A=false
 	}
 	score = 0;
-	if place_meeting(x, y, objPlayer) instance_destroy();
 
 	}
+	if place_meeting(x, y, objPlayer) instance_destroy();
 
 }else if (room == rmFWD){
 	
